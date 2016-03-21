@@ -1,0 +1,94 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 16px;
+  font-family: 'Helvetica Neue', 'Helvetica', 'Open Sans', Verdana, sans-serif;
+  max-width: 100%;
+}
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+}
+h1 {
+  line-height: 1em;
+  padding: 0px;
+  margin: 0px;
+  font-weight: 100;
+}
+h2 {
+  color: rgb(255, 255, 255);
+  background: rgb(0, 0, 0);
+  text-align: center;
+  margin: 0;
+  padding: 15px 0px;
+  border-bottom: 1px dotted rgb(255, 255, 255);
+}
+h3 {
+  color: rgb(255, 150, 150);
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+header {
+  text-align: center;
+  text-align: 1em;
+  margin: 0;
+  padding: 0;
+  color: rgb(255, 150, 150);
+  background: rgb(66, 66, 66);
+}
+section {
+  max-width: 100%;
+}
+article {
+  padding: 10px;
+  margin: 20px 10px;
+  color: rgb(255, 255, 255);
+  background: rgb(33, 33, 33);
+  text-align: center;
+}
+figure {
+  display: inline-block;
+  margin: 0 auto;
+}
+figcaption {
+  text-align: left;
+}
+img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+}
+footer {
+  text-align: center;
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  border-top: 1px dotted rgb(255, 255, 255);
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+a {
+  text-decoration: none;
+  color: rgb(255, 150, 150);
+  border: 1px solid black;
+  border-color: transparent;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:visited, a:active {
+  color: rgb(255, 255, 0);
+}
+a:active {
+  border: 1px dotted rgb(255, 255, 255);
+}
+audio {
+  display: none;
+}
